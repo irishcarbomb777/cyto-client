@@ -9,7 +9,7 @@ import config from './config';
 
 
 Amplify.configure({
-  AUTH: {
+  Auth: {
     mandatorySignIn: true,
     region: config.cognito.REGION,
     userPoolId: config.cognito.USER_POOL_ID,
